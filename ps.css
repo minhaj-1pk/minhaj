@@ -1,0 +1,267 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+}
+body{
+  background-color:rgb(38, 7,66);
+}
+
+/* Define the style of each grid item */
+.item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Define the style of the images */
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Define the style of the navigation bar */
+
+/* nav {
+  margin-top:10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8e99ec;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  width: 1100px;
+  margin-left: 90px;
+  /* HFJHRHJHJFJHJHJGHJGHJGHGHJ */
+  
+  
+    
+  
+  
+
+
+
+/* Define the style of the navigation links */
+/* nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+
+nav a:hover {
+  background-color: #555555;
+  border-color: darkgreen;
+}
+
+/* Define the style of the active navigation link
+
+nav a.active {
+  background-color: #999999;
+} 
+
+/* Define the style of the page title */
+h1 {
+  display: flex;
+  text-align:center;
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 350px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: cyan;
+
+}
+.mainimage{
+  display: flex;
+}
+.myimg{
+display: flex;
+width: 250px;
+height: 300px;
+align-items: center;
+position: relative;
+
+}
+.mg{
+  display: flex;
+  border-radius: 10px;
+  border-bottom-left-radius: 100px;
+  margin-left: 100px;
+  height: 300px;
+  width: 400px;
+
+}
+.fade-in h2{
+  width: fit-content;
+  padding-top: 50px;
+  margin-left:300px;
+
+  
+  
+}
+/* .myimg h2{
+  display: flex;
+    margin-left :300px;
+  align-items: center;
+  margin-top: 40PX;
+  justify-content: center;
+  position: relative;
+
+} */
+
+
+/* Define the style of the page subtitle */
+h2 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: turquoise;
+}
+
+/* Define the style of the page content */
+p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Use media queries to change the style of some elements for smaller screens */
+@media (max-width: 600px) {
+  
+  /* Change the grid layout to one column */
+ 
+  
+
+/* Hide the navigation bar */
+nav {
+display:none;
+
+}
+
+/* Change the page title font size */
+h1 {
+font-size:24px;
+
+}
+
+/* Change the page subtitle font size */
+h2 {
+font-size:18px;
+
+}
+
+/* Change the page content font size */
+p {
+font-size:14px;
+
+}
+
+}
+.progress{
+margin: 0px 150px 0px 150px;
+}
+
+#asd{
+text-align: center;
+}
+.container.task{
+height: 50px;
+width: 50px;
+display: flex;
+margin: 50px;
+padding: 50px;
+}
+.itemmm{
+display: flex;
+}
+.itemm{
+display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+
+
+}
+.wid{
+border-radius: 30px;
+}
+
+
+
+.container  {
+background-color: rgb(38, 7,66);
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+border: 1px solid #0978e7;
+border-radius: 4px;
+}
+
+.form-control:focus {
+border-color: #80bdff;
+box-shadow: none;
+}
+
+.btn-primary {
+background-color: #007bff;
+border: none;
+}
+
+.btn-primary:hover {
+background-color: #cdd2d7;
+}
+.form-label{
+color:#f0eeee ;
+}
+.mb-4{
+color: rgb(246, 247, 248);
+}
+
+
+.container {
+background-color:rgb(38, 7,66);
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+border: none;
+background-color: transparent;
+}
+
+.list-group-item a {
+color: #f4efef;
+display: flex;
+align-items: center;
+text-decoration: none;
+}
+
+.list-group-item a:hover {
+color: #d86111;
+}
+
+.list-group-item i {
+font-size: 24px;
+margin-right: 10px;
+}
+.colo{
+  border-radius: 50px;
+}
+.colo:hover{
+  background-color: #d86111;
+  border-radius: 50px;
+
+}
